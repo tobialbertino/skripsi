@@ -1,3 +1,8 @@
+# ignore file or folder contains images dataset
 BreaKHis_v1.tar.gz
 BreaKHis_v1
 Cancer
+dataset_used
+
+# (saved model from learning purpos)
+src/Best_model 
