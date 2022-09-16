@@ -4,5 +4,7 @@ BreaKHis_v1
 Cancer
 dataset_used
 
-# (saved model from learning purpos)
-src/Best_model 
+# (saved model from learning purpose)
+src/Best_model
+# temporary ignore model 
+src/output

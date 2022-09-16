@@ -22,9 +22,9 @@ recommended bypassing kaggle for optimal download speed, and downloading the Fol
 - Folds.csv (download first)
 - src (folder where code to be executed)
   - output (folder model result saved)
-  - BreakHisModel-1.ipynb (Praprocess mainly, run first. Read markdown notes)
-  - BreakHisModel-2.ipynb (use transfer learning RestNet)
-  - BreakHisModel-3.ipynb (use transfer learning DenseNet)
+  - BreakHis-1.ipynb (Praprocess mainly, run first. Read markdown notes)
+  - BreakHis-2.ipynb (use transfer learning RestNet)
+  - BreakHis-3.ipynb (use transfer learning DenseNet)
 
 for other files will be generated in the code especially the preprocess section, you can ignore other structures, or can be understood during the code process,
 - other folder at the root level is used for convenience in using the image generator data
