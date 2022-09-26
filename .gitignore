@@ -8,3 +8,4 @@ dataset_used
 src/Best_model
 # temporary ignore model 
 src/output
+src/logs
