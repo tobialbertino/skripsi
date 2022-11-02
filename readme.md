@@ -5,7 +5,7 @@ on this page:
 - [dataset](#dataset)
 - [structure folder](#structure-folder)
 - [used file](#used-file)
-- [Model File](#output-model)
+- [Output Model](#output-model)
 
 ## enviroment
 
@@ -22,18 +22,21 @@ recommended bypassing kaggle for optimal download speed, and downloading the Fol
 
 ## structure folder
 
-- root
-- BreaKHis_v1 (download first and extract here)
+The following is the project folder structure that will be used:  
+- root level
+- BreaKHis_v1.tar.gz (download first and extract here)
+- BreaKHis_v1 (folder extraction result)
 - Folds.csv (download first)
 - src (folder where code to be executed)
   - output (folder model result saved)
   - BreakHis-1.ipynb (Praprocess mainly, run first. Read markdown notes)
+  - magnify-Praprocess.ipynb (continued after preprocess 1)
   - BreakHis-2.ipynb (use transfer learning RestNet)
   - BreakHis-3.ipynb (use transfer learning RestNet50v2)
-  - BreakHis-4.ipynb (use transfer learning DenseNet)
+  - BreakHis-4.ipynb (use transfer learning DenseNet121)
 
-for other files will be generated in the code especially the preprocess section, you can ignore other structures, or can be understood during the code process,
-- other folder at the root level is used for convenience in using the image generator data
+for other files will be generated in the code especially the preprocess section and praprocess magnify, you can ignore other structures, or can be understood during the code process,
+- other folder at the root level is used for convenience in using the image generator data and and easy in the preprocess folder structure
 
 ## used file
 
@@ -44,7 +47,8 @@ in this project, the files used are only some of the ones I have listed in this 
 ## Output model
 
 Because the size of the model output from the transfer learning results is quite large, I use OneDrive IPb to upload the model results, the model can be accessed at the following link:  
-[**Output Model link OneDrive**](https://appsipbacid-my.sharepoint.com/:f:/g/personal/muhamad_tobiaja232_apps_ipb_ac_id/EprpGn2mHMBHlHqsoP-TOA0B02LHNwdZeujJ4Aezl04kBA?e=I3tyYs)  
+- [**Output Model link OneDrive**](https://appsipbacid-my.sharepoint.com/:f:/g/personal/muhamad_tobiaja232_apps_ipb_ac_id/EprpGn2mHMBHlHqsoP-TOA0B02LHNwdZeujJ4Aezl04kBA?e=I3tyYs)
+
 and the model used is from the following directory:
 - output/restnet/restnet50v2_model__HP_fineTune_FIX-v2.h5 
 - output/denseNet/denseNet_HP.h5 
