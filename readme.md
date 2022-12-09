@@ -18,7 +18,7 @@ you can download the dataset from
 1. https://www.kaggle.com/datasets/ambarish/breakhis?datasetId=209316&sortBy=voteCount&select=Folds.csv or 
 2. https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
 
-recommended bypassing kaggle for optimal download speed, and downloading the Folds.csv file if downloading from option 2, file Folds.csv can be downloaded on kaggle in option 1
+recommended bypassing kaggle for optimal download speed, and downloading the Folds.csv file if downloading from option 2, file Folds.csv can be downloaded on kaggle in option 1 or download and running python script bellow form register
 
 ## structure folder
 
