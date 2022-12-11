@@ -46,7 +46,7 @@ in this project, the files used are only some of the ones I have listed in this 
 
 ## Output model
 
-Because the size of the model output from the transfer learning results is quite large, I use OneDrive IPb to upload the model results, the model can be accessed at the following link:  
+Because the size of the model output from the transfer learning results is quite large, I use OneDrive IPB to upload the model results, the model can be accessed at the following link:  
 - [**Output Model link OneDrive**](https://appsipbacid-my.sharepoint.com/:f:/g/personal/muhamad_tobiaja232_apps_ipb_ac_id/EprpGn2mHMBHlHqsoP-TOA0B02LHNwdZeujJ4Aezl04kBA?e=I3tyYs)
 
 and the model used is from the following directory:
